@@ -1,0 +1,553 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hud",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/client/screens/HudOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Xp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/XpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sd",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/client/screens/SdOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Undeadkills",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeadkills",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/UndeadkillsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Undeaddamages",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeaddamages",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/UndeaddamagesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Removexporbs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removexporbs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/RemovexporbsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nohunger",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nohunger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/NohungerProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Healthvari",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healthvari",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/HealthvariProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Health",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/client/screens/HealthOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Tst",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tst",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/TstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perktst",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "downedhud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/client/screens/PerktstOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Isdowned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isdowned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/IsdownedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Downvardtst",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "downvardtst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/DownvardtstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Isreving",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isreving",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/IsrevingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsBeingRevived",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_being_revived",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/IsBeingRevivedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerTicks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_ticks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/PlayerTicksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetupAnimation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setup_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/SetupAnimationProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Reviving",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reviving",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/RevivingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DevCommands",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_commands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/command/DevCommandsCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "DownEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "down_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/DownEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RatsOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rats_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/RatsOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rats",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rats",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hud/models/item/rats_spawn_egg.json",
+          "src/main/java/net/mcreator/hud/client/renderer/RatsRenderer.java",
+          "src/main/java/net/mcreator/hud/entity/RatsEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CreateGroup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_group",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/CreateGroupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JoinGroup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join_group",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/JoinGroupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "health",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "isDown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isReviving",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isBeingRevived",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Revived",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "IsPlayer",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "RevivableEntities",
+      "type": "datalist",
+      "scope": "global",
+      "value": "new ListTag()"
+    },
+    {
+      "name": "CurrentGroup",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "PlayersInGroup",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "ResetAnims",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.hud.rats": "Rats",
+      "gui.hud.hud.label_sdf": "sdf",
+      "item.hud.rats_spawn_egg": "Rats Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hud",
+    "modName": "hud",
+    "version": "1.0.0",
+    "author": "MiQDAD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hud"
+  },
+  "mcreatorVersion": 202400452410
+}

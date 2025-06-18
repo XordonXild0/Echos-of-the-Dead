@@ -1,0 +1,76 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sdf",
+          "text": {
+            "fixedValue": "sdf",
+            "name": "Xp"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 27,
+          "y": 199,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "outline.png",
+          "use1Xscale": false,
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 4,
+          "y": 195,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "splatter.png",
+          "use1Xscale": true,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 352,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_healthvari",
+          "text": {
+            "fixedValue": "",
+            "name": "Healthvari"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 69,
+          "y": 213,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 1,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"player.downeds": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [-72.61794, -1.08089, 12.45392]
+					},
+					"position": {
+						"vector": [0, -10, 0]
+					}
+				},
+				"torso": {
+					"rotation": {
+						"vector": [0, -7.5, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [26.50648, -47.13536, -34.23216]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [30, 0, 7.5]
+					},
+					"position": {
+						"vector": [0, 1, -5]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-15, 0, -15]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
