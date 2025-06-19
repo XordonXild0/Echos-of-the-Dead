@@ -20,7 +20,31 @@ authors="MiQDAD, MCreator"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.hud]]
+    modId="kleiders_custom_renderer"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.hud]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.hud]]
+    modId="kleiders_custom_renderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.hud]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.hud]]
     modId="playeranimator"
     mandatory=false
