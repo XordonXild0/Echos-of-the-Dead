@@ -314,6 +314,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -453,6 +465,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "ForceStartGame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_start_game",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hud/procedures/ForceStartGameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -514,6 +544,12 @@
       "name": "ResetAnims",
       "type": "logic",
       "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "IsGameStarted",
+      "type": "logic",
+      "scope": "global",
       "value": "false"
     }
   ],

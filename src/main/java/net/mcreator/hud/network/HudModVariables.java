@@ -42,6 +42,7 @@ public class HudModVariables {
 	public static ListTag RevivableEntities = new ListTag();
 	public static double CurrentGroup = 0;
 	public static double PlayersInGroup = 0;
+	public static boolean IsGameStarted = false;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
